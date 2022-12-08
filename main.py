@@ -1,7 +1,9 @@
 from diaries.DiarySample import DiarySample
+from diaries.SakaiDiary import SakaiDiary
 # ↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
     DiarySample(),
+    SakaiDiary(),
 ]
 for d in diaries:
     print("---------------------------------")
