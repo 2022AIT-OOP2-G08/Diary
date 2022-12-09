@@ -1,7 +1,9 @@
 from diaries.DiarySample import DiarySample
+from diaries.satoshi_diary import satoshi_diary
 # ↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
     DiarySample(),
+    satoshi_diary(),
 ]
 for d in diaries:
     print("---------------------------------")

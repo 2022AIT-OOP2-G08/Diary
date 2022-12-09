@@ -1,6 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
-class DiarySample(AbstractDiary):
+class satoshi_diary(AbstractDiary):
     def get_date(self):
         return "2022-12-08"
 
