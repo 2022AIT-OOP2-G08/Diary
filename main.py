@@ -1,7 +1,9 @@
 from diaries.DiarySample import DiarySample
+from diaries.ItoDiary import ItoDirary
 # ↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
     DiarySample(),
+    ItoDirary(),
 ]
 for d in diaries:
     print("---------------------------------")
