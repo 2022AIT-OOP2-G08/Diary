@@ -5,6 +5,7 @@ from diaries.ItoDiary import ItoDirary
 from diaries.NozakiDiary import NozakiDiary
 from diaries.UnoDiary import UnoDairy
 from diaries.SakaiDiary import SakaiDiary
+from diaries.NakazimaDiary import NakazimaDiary
 # ↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
     DiarySample(),
@@ -14,6 +15,7 @@ diaries = [
     KeisukeDiary(),
     UnoDairy(),
     SakaiDiary(),
+    NakazimaDiary()
 ]
 for d in diaries:
     print("---------------------------------")
